@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SpendWise Dashboard</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- ==============================
+             SIDEBAR
+             ============================== -->
+
+        <aside class="sidebar">
+
+            <div class="logo">
+                <h2>SpendWise</h2>
+                <p>Budget Tracker</p>
+            </div>
+
+            <nav class="navigation">
+
+                <a href="#" class="nav-item active">
+                    Dashboard
+                </a>
+
+                <a href="#" class="nav-item">
+                    Expenses
+                </a>
+
+                <a href="#" class="nav-item">
+                    Budget
+                </a>
+
+                <a href="#" class="nav-item">
+                    Savings
+                </a>
+
+                <a href="#" class="nav-item">
+                    Reports
+                </a>
+
+                <a href="#" class="nav-item">
+                    Settings
+                </a>
+
+            </nav>
+
+            <div class="sidebar-footer">
+                <p>Personal Finance</p>
+            </div>
+
+        </aside>
+
+
+        <!-- ==============================
+             MAIN CONTENT
+             ============================== -->
+
+        <main class="main-content">
+
+            <!-- Header -->
+
+            <header class="dashboard-header">
+
+                <div class="header-title">
+
+                    <h1>Dashboard</h1>
+
+                    <p>
+                        Overview of your finances
+                    </p>
+
+                </div>
+
+
+                <div class="user-info">
+
+                    <div class="user-avatar">
+                        HH
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Hassan
+                        </strong>
+
+                        <span>
+                            Account Owner
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <!-- ==============================
+                 SUMMARY CARDS
+                 ============================== -->
+
+            <section class="summary">
+
+                <div class="summary-card">
+
+                    <span>
+                        Total Budget
+                    </span>
+
+                    <strong>
+                        $2,000
+                    </strong>
+
+                    <small>
+                        Monthly budget
+                    </small>
+
+                </div>
+
+
+                <div class="summary-card">
+
+                    <span>
+                        Total Expenses
+                    </span>
+
+                    <strong>
+                        $1,240
+                    </strong>
+
+                    <small>
+                        62% of budget used
+                    </small>
+
+                </div>
+
+
+                <div class="summary-card">
+
+                    <span>
+                        Remaining Balance
+                    </span>
+
+                    <strong>
+                        $760
+                    </strong>
+
+                    <small>
+                        Available balance
+                    </small>
+
+                </div>
+
+            </section>
+
+
+            <!-- ==============================
+                 EXPENSE CATEGORIES
+                 ============================== -->
+
+            <section class="categories">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <h2>
+                            Expense Categories
+                        </h2>
+
+                        <p>
+                            Your spending by category
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="category-grid">
+
+
+                    <!-- Food -->
+
+                    <article class="category-card" tabindex="0">
+
+                        <div class="card-top">
+
+                            <div class="category-icon">
+                                🍔
+                            </div>
+
+                            <span class="percentage">
+                                18%
+                            </span>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <h3>
+                                Food
+                            </h3>
+
+                            <p>
+                                Groceries and meals
+                            </p>
+
+                            <strong>
+                                $220
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Transport -->
+
+                    <article class="category-card" tabindex="0">
+
+                        <div class="card-top">
+
+                            <div class="category-icon">
+                                🚌
+                            </div>
+
+                            <span class="percentage">
+                                10%
+                            </span>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <h3>
+                                Transport
+                            </h3>
+
+                            <p>
+                                Bus, fuel and travel
+                            </p>
+
+                            <strong>
+                                $120
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Rent -->
+
+                    <article class="category-card" tabindex="0">
+
+                        <div class="card-top">
+
+                            <div class="category-icon">
+                                🏠
+                            </div>
+
+                            <span class="percentage">
+                                35%
+                            </span>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <h3>
+                                Rent
+                            </h3>
+
+                            <p>
+                                Monthly housing cost
+                            </p>
+
+                            <strong>
+                                $450
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Entertainment -->
+
+                    <article class="category-card" tabindex="0">
+
+                        <div class="card-top">
+
+                            <div class="category-icon">
+                                🎬
+                            </div>
+
+                            <span class="percentage">
+                                7%
+                            </span>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <h3>
+                                Entertainment
+                            </h3>
+
+                            <p>
+                                Movies and subscriptions
+                            </p>
+
+                            <strong>
+                                $90
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Savings -->
+
+                    <article class="category-card" tabindex="0">
+
+                        <div class="card-top">
+
+                            <div class="category-icon">
+                                💰
+                            </div>
+
+                            <span class="percentage">
+                                15%
+                            </span>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <h3>
+                                Savings
+                            </h3>
+
+                            <p>
+                                Monthly savings goal
+                            </p>
+
+                            <strong>
+                                $180
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Utilities -->
+
+                    <article class="category-card" tabindex="0">
+
+                        <div class="card-top">
+
+                            <div class="category-icon">
+                                💡
+                            </div>
+
+                            <span class="percentage">
+                                15%
+                            </span>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <h3>
+                                Utilities
+                            </h3>
+
+                            <p>
+                                Electricity and internet
+                            </p>
+
+                            <strong>
+                                $180
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <!-- ==============================
+         JAVASCRIPT
+         ============================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
